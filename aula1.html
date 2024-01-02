@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula1</title>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <!--Aula 1: Introdução às Bases do Inglês
+
+Objetivo: Introduzir o aluno aos conceitos básicos do inglês, incluindo cores, dias da semana, números, saudações e meios de transporte.
+
+Cores, Dias da Semana e Números:
+
+--Apresentação e prática de cores básicas em inglês: Saturday, blue, green, etc.
+--Introdução aos dias da semana em inglês: Monday, Tuesday, Wednesday, etc.
+--Números de 1 a 10: one, two, three, four, five, six, seven, eight, nine, ten.
+--Exercícios práticos para associar cores, dias e números.
+--Saudações em Inglês:
+
+--Ensino de saudações comuns: Hello, Hi, Good morning, Good afternoon, Good evening.
+--Discussão sobre o uso apropriado de cada saudação em diferentes contextos.
+--Atividades de role-play para praticar as saudações em situações cotidianas.
+--Meios de Transporte:
+
+--Introdução ao vocabulário de meios de transporte: car, bus, bicycle, train, etc.
+--Discussão sobre os diferentes modos de transporte e quando utilizá-los.
+--Desenvolvimento de diálogos simples para praticar expressões relacionadas a meios de transporte.a
+-- Nome dos animais 
+   -->
+  <body>
+    <header style="height: 10vh; background-color: blue; width: 100%">
+      <h1
+        style="
+          font-size: 4rem;
+          text-align: center;
+          color: cornsilk;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        "
+      >
+        Aulas Raul
+      </h1>
+    </header>
+    <div class="questions">
+      <h1>1- Qual a cor da banana</h1>
+      <div
+        style="
+          font-size: 2.5rem;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding: 10px;
+        "
+        class="q1"
+        id="q1"
+      >
+        <input type="radio" name="1" id="Yellow" value="1" />
+        <label for="Yellow">Yellow</label><br />
+        <input type="radio" name="1" id="Red" />
+        <label for="Red">Red</label><br />
+        <input type="radio" name="1" id="Purple" />
+        <label for="Purple">Purple</label>
+      </div>
+      <h1>2- Como se fala quarta-feira em inglês?</h1>
+      <div
+        style="
+          font-size: 2.5rem;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding: 10px;
+        "
+        class="q1"
+        id="q2"
+      >
+        <input type="radio" name="2" id="Monday" />
+        <label for="Monday">Monday</label><br />
+        <input type="radio" name="2" id="Saturday" />
+        <label for="Saturday">Saturday</label><br />
+        <input type="radio" name="2" id="Wednesday" value="1" />
+        <label for="Wednesday">Wednesday</label>
+      </div>
+      <h1>3- Qual o resultado da conta 2² + 10 - 5</h1>
+      <div
+        style="
+          font-size: 2.5rem;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding: 10px;
+        "
+        class="q1"
+        id="q3"
+      >
+        <input type="radio" name="3" id="six" />
+        <label for="six">six</label><br />
+
+        <input type="radio" name="3" id="eleven" />
+        <label for="eleven">eleven</label><br />
+
+        <input type="radio" name="3" id="nine" value="1" />
+        <label for="nine">nine</label>
+      </div>
+      <h1>4- Como que você deve responder a um "How are you doing?"</h1>
+      <div
+        style="
+          font-size: 2.5rem;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding: 10px;
+        "
+        class="q1"
+        id="q4"
+      >
+        <input type="radio" name="4" id="imFineAndYou" value="1" />
+        <label for="imFineAndYou">I'm fine and you</label><br />
+
+        <input type="radio" name="4" id="youreWelcome" />
+        <label for="youreWelcome">You're welcome</label><br />
+
+        <input type="radio" name="4" id="thanks" />
+        <label for="thanks">Thanks</label>
+      </div>
+      <h1>5- Como que você fala "E com você?" em inglês</h1>
+      <div
+        style="
+          font-size: 2.5rem;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding: 10px;
+        "
+        class="q1"
+        id="q5"
+      >
+        <input type="radio" name="5" id="you" />
+        <label for="you">You?</label><br />
+
+        <input type="radio" name="5" id="howAboutYou" value="1" />
+        <label for="howAboutYou">How about you?</label><br />
+
+        <input type="radio" name="5" id="imGoingUp" />
+        <label for="imGoingUp">I'm going up</label>
+      </div>
+      <h1>6-Que meio de transporte você usa para chegar até a aula?</h1>
+      <div
+        style="
+          font-size: 2.5rem;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding: 10px;
+        "
+        class="q1"
+        id="q6"
+      >
+        <input type="radio" name="6" id="train" />
+        <label for="train">Train</label><br />
+
+        <input type="radio" name="6" id="car" />
+        <label for="car">Car</label><br />
+
+        <input type="radio" name="6" id="motorcycle" value="1" />
+        <label for="motorcycle">Motorcycle</label>
+      </div>
+      <h1>7- Qual meio de transporte entre estes tem 2 rodas?</h1>
+      <div
+        style="
+          font-size: 2.5rem;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          padding: 10px;
+        "
+        class="q1"
+        id="q7"
+      >
+        <input type="radio" name="7" id="subway" />
+        <label for="subway">Subway</label><br />
+
+        <input type="radio" name="7" id="bicycle" value="1" />
+        <label for="bicycle">Bicycle</label><br />
+
+        <input type="radio" name="7" id="onFoot" />
+        <label for="onFoot">On foot</label>
+      </div>
+
+      <div class="answer">
+        <button class="answer-btn" onclick="resultado()">
+          Enviar resultado
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!--
+  erros a resolver:
+  forward
+  backward
+  was/were
+  como falar para mais de 1000 em ingles
+  to do/ doing / done
+  wheel
+  como usar o I`m
+  expressao chil
+  revisar o nome dos animais
+-->

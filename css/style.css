@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}
+.questions {
+  text-align: center;
+  margin-top: 40px;
+}
+h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.q1 {
+  font-size: 2.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+.answer-btn {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2.5px solid black;
+  font-size: 1.75rem;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
